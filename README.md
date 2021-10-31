@@ -42,7 +42,7 @@ torchvision 0.2.1
 ```
 1.  clone the repo: `git clone https://github.com/hsndbk4/GDWS.git`
 2.  make sure the appropriate dataset folders are setup properly (check `get_dataloaders` in `datasets.py`)
-3.  download a pre-trained pre-activation resnet-18 on CIFAR-10 and its pre-computed weight error vectors `alpha` from [here](TODO)
+3.  download a pre-trained pre-activation resnet-18 on CIFAR-10 and its pre-computed weight error vectors `alpha` from [here](https://uofi.box.com/s/b6jm8q1qi1xufyrxt541972p6q4s6ago)
 4.  place both files in an appropriate folder in the root directory, e.g. `outdir_cifar10/preactresnet18`
 
 We are now set to run some scripts. First, let us check the natural and robust accuracies of our pre-trained baselines by running the following two commands:
