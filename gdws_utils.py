@@ -21,6 +21,7 @@ class ChannelRepeater(nn.Module):
 
 
 # Algorithm 3 in our paper
+# for faster robustness evaluation, set explicit = False, for deployment, set explicit = True
 def apply_gdws_approx_LEGO(model: torch.nn.Module, beta: float, alphas: dict, use_stat_layers: bool=False, explicit: bool=True, skip_first: bool=True) -> None:
     #first fetch the layer
     Conv2d = Conv2dStat if use_stat_layers else nn.Conv2d
