@@ -63,8 +63,9 @@ If you find our work helpful, please consider citing it.
 ```
 @article{dbouk2021generalized,
   title={Generalized Depthwise-Separable Convolutions for Adversarially Robust and Efficient Neural Networks},
-  author={Dbouk, Hassan and Shanbhag, Naresh R.},
+  author={Dbouk, Hassan and Shanbhag, Naresh},
   journal={Advances in Neural Information Processing Systems},
+  volume={34},
   year={2021}
 }
 ```
